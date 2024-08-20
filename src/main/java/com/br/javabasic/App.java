@@ -5,18 +5,14 @@ import com.br.javabasic.core.model.PessoaFisica;
 import com.br.javabasic.core.service.MigrationService;
 import com.br.javabasic.core.service.PessoaFisicaService;
 import com.br.javabasic.core.service.PessoaJuridicaService;
-import com.br.javabasic.core.service.ServiceUtils;
-
 public class App 
 {
     public static void main( String[] args )
     {
         new MigrationService().init();
 
-        ServiceUtils serviceUtils = new ServiceUtils();
-
         PessoaFisicaService pessoaFisicaService = new PessoaFisicaService();
-        // pessoaFisicaService.populateElements();
+        pessoaFisicaService.populateElements();
         PessoaFisica pessoaPF = pessoaFisicaService.getElementByDocument("14984101032");
         System.out.println(pessoaPF.getId());
         pessoaFisicaService.getElements().stream().forEachOrdered(pessoa -> System.out.println(pessoa.getName()));
@@ -26,7 +22,7 @@ public class App
         
 
         PessoaJuridicaService pessoaJuridicaService = new PessoaJuridicaService();
-        // pessoaJuridicaService.populateElements();
+        pessoaJuridicaService.populateElements();
         Pessoa pessoaPJ = pessoaJuridicaService.getElementByDocument("62456845000143");
         System.out.println(pessoaPJ);
         pessoaJuridicaService.getElements().stream().forEachOrdered(pessoa -> System.out.println(pessoa.getName()));
