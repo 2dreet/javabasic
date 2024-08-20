@@ -1,0 +1,14 @@
+com/br/javabasic/core/config/DataBaseConfiguration.class
+com/br/javabasic/core/model/PessoaJuridica.class
+com/br/javabasic/core/service/DataBaseService.class
+com/br/javabasic/core/config/ConfigClass.class
+com/br/javabasic/App.class
+com/br/javabasic/core/service/ServiceBase.class
+com/br/javabasic/core/model/Pessoa.class
+com/br/javabasic/core/service/ServiceUtils.class
+com/br/javabasic/core/repository/PessoaFisicaRepository.class
+com/br/javabasic/core/service/MigrationService.class
+com/br/javabasic/core/repository/PessoaJuridicaRepository.class
+com/br/javabasic/core/service/PessoaFisicaService.class
+com/br/javabasic/core/model/PessoaFisica.class
+com/br/javabasic/core/service/PessoaJuridicaService.class

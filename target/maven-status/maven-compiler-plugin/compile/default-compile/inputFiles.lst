@@ -1,0 +1,14 @@
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/App.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/config/ConfigClass.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/config/DataBaseConfiguration.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/model/Pessoa.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/model/PessoaFisica.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/model/PessoaJuridica.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/repository/PessoaFisicaRepository.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/repository/PessoaJuridicaRepository.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/service/DataBaseService.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/service/MigrationService.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/service/PessoaFisicaService.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/service/PessoaJuridicaService.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/service/ServiceBase.java
+/home/jose/Projects/Java/JavaBasic/src/main/java/com/br/javabasic/core/service/ServiceUtils.java
